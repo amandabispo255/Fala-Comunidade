@@ -1,0 +1,26 @@
+<div class="container">
+<section class="property-binding">
+
+    <!-- é possível fazer interpolação de uma variável que está definida no componente, podem ser feitas
+    expressões matematicas diretamente,  pode colocar o resultado de execução de um método que foi criado
+também no componente. EX: Quantidade de pessoas cadastradas, quantidade de reclamações, quantidade de material
+pode ser um metodo que return expressão booleana dentro de while ou IF-->
+<article>
+<h3>Interpolation/Interpolação</h3>
+<p> String renderizada com interpolação:{{ url }}</p>
+<p>Resultado de 1 + 1 é: {{ 1 + 1 }} </p>
+<p>Resultado de 1+1 não é{{ 1+ 1 + getValor()}}</p>
+<p> Vejo o curso angular e gosto do curso: {{ cursoAngular && getCurtirCurso()}}</p>
+</article>
+<article>
+<h3> property-binding</h3>
+<img class= "image1" src="{{ urlImagem }}">
+<!--<img [src]="urlImagem"> O uso do colchete na propriedade significa que é um property binding, e 
+só pode ser usado assim na tag para fzr interpolação quando ela vier acompanhada de uma propriedade  --> 
+
+
+
+</article>
+
+</section>
+</div>

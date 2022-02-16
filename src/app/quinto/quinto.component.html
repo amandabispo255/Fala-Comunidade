@@ -1,0 +1,76 @@
+
+<br><div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Meus Dados</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Minhas Reclamações</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Fale conosco</button>
+    </div>
+
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <div class="container-fluid">
+            <div id="id1"><br><br>
+              <div >
+                  <form action="Tela de cadastro da reclamação" method="post">
+                  <a class="navbar-brand">
+                    Sistema de Cadastro
+                        </a>
+                  <br><br>
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" [value]="email" >
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="inputPassword4" [value]="senha">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" [value]="">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Complemento</label>
+                    <input type="text" class="form-control" id="inputAddress2" [value]="">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="inputCity" [value]="">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">Estado</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>BA</option>
+                      <option>PE</option>
+                      <option>MG</option>
+                      <option>SC</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Número</label>
+                    <input type="text" class="form-control" id="inputZip" [value]="">
+                  </div>
+                  
+              <p>Envie uma foto</p>
+                    <div class="input-group mb-3">
+                      <input type="file" class="form-control" id="inputGroupFile02">
+                      <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                    </div>
+            <input type="submit" value="Continuar" class="botao">
+            </form>
+              </div>
+              </div>
+            </div>
+
+      </div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">ATENÇÃO!</h4>
+            <p>Antes de fazer a solicitação clique em Meus Dados (no menu) e verifique se o seu cadastro está correto e completo. É muito importante 
+                que seu cadastro esteja correto para que nossos atendentes respondam ao atendimento através do e-mail.</p>
+          </div>
+      </div>
+      
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+
+    </div>
+  </div>
