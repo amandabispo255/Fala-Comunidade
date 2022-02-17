@@ -1,1 +1,1 @@
-"# Fala comunidade" 
+"Fala comunidade" 
